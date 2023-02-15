@@ -12,6 +12,6 @@ pip install -r requirements.txt
 # UKÁZKA PROJEKTU
 Chceme-li informace například z obvodu Benešov, v příkazové řádce zadáme následující příkaz:
 ```
-python Election_Scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "volby_Benesov.csv"
+python election_scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "volby_Benesov.csv"
 ```
 V repozitáři se následně vytvoří soubor _csv_ s výsledky voleb.
